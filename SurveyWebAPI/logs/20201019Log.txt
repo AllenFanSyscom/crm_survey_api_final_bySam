@@ -1,0 +1,122 @@
+2020-10-19 10:41:14,550 [9] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-19 10:41:18,952 [9] DEBUG - queryByPage:sql='SELECT A.SurveyId, A.Title, A.Audit,  NULL AS StartDate, NULL AS EndDate, NULL AS[Status], SYSDATETIME() AS SysDate,  COUNT(B.ReplyId) AS ReplyNum, COUNT(D.SurveyId) AS SurveyNumInQUE002, A.CreateUserId, C.UserName AS CreateUserName, A.CreateDateTime, A.UpdDateTime  FROM QUE001_QuestionnaireBase A  LEFT JOIN QUE021_AnwserCollection B ON B.SurveyId = A.SurveyId  LEFT JOIN SSEC001_UserInfo C ON C.UserId=A.CreateUserId  LEFT JOIN QUE002_QuestionnaireDetail D ON D.SurveyId=A.SurveyId  GROUP BY A.SurveyId, A.Title, A.Audit,  A.CreateUserId, C.UserName, A.CreateDateTime, A.UpdDateTime  ORDER BY A.UpdDateTime DESC '
+2020-10-19 10:41:19,472 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:19,481 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:19,583 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:19,584 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:19,693 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:19,693 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='99999999-0000-0000-0000-000000000002'  
+2020-10-19 10:41:19,799 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:19,800 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:19,907 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:19,908 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:20,015 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:20,016 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:20,115 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:20,116 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:20,215 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:20,216 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:20,340 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:20,341 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:20,446 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:20,449 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:20,560 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:20,561 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:20,662 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:20,663 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:20,771 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:20,772 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='99999991-0000-0000-0000-000000000000'  
+2020-10-19 10:41:20,871 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:20,871 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:20,985 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:20,986 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:21,087 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:21,088 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:21,186 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:21,187 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:21,283 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:21,284 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='99999999-0000-0000-0000-200000000000'  
+2020-10-19 10:41:21,387 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:21,389 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:21,486 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:21,486 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='11111111-1111-1111-0000-000000000000'  
+2020-10-19 10:41:21,588 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:21,588 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:21,708 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='99999999-0000-0000-0000-000000000002'  
+2020-10-19 10:41:21,809 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:21,810 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:21,920 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:21,920 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:22,039 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:22,040 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:22,138 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:22,138 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:22,241 [9] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:41:22,242 [9] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:41:22,293 [9] DEBUG - 查詢紀錄完成。共27筆。
+2020-10-19 10:42:06,522 [4] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-19 10:42:07,118 [4] DEBUG - queryByPage:sql='SELECT A.SurveyId, A.Title, A.Audit,  NULL AS StartDate, NULL AS EndDate, NULL AS[Status], SYSDATETIME() AS SysDate,  COUNT(B.ReplyId) AS ReplyNum, COUNT(D.SurveyId) AS SurveyNumInQUE002, A.CreateUserId, C.UserName AS CreateUserName, A.CreateDateTime, A.UpdDateTime  FROM QUE001_QuestionnaireBase A  LEFT JOIN QUE021_AnwserCollection B ON B.SurveyId = A.SurveyId  LEFT JOIN SSEC001_UserInfo C ON C.UserId=A.CreateUserId  LEFT JOIN QUE002_QuestionnaireDetail D ON D.SurveyId=A.SurveyId  GROUP BY A.SurveyId, A.Title, A.Audit,  A.CreateUserId, C.UserName, A.CreateDateTime, A.UpdDateTime  ORDER BY A.UpdDateTime DESC '
+2020-10-19 10:42:07,629 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:07,633 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:07,740 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:07,741 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:07,842 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:07,842 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='99999999-0000-0000-0000-000000000002'  
+2020-10-19 10:42:07,947 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:07,949 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:08,048 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:08,049 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:08,146 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:08,147 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:08,245 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:08,246 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:08,358 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:08,361 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:08,489 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:08,490 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:08,610 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:08,611 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:08,714 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:08,715 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:08,828 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:08,831 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:08,937 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:08,937 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='99999991-0000-0000-0000-000000000000'  
+2020-10-19 10:42:09,038 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:09,038 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:09,148 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:09,149 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:09,261 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:09,261 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:09,364 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:09,364 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:09,493 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:09,494 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='99999999-0000-0000-0000-200000000000'  
+2020-10-19 10:42:09,635 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:09,636 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:09,749 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:09,750 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='11111111-1111-1111-0000-000000000000'  
+2020-10-19 10:42:09,851 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:09,852 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:09,954 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='99999999-0000-0000-0000-000000000002'  
+2020-10-19 10:42:10,075 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:10,076 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:10,186 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:10,186 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:10,283 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:10,283 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:10,390 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:10,391 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:10,518 [4] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-19 10:42:10,518 [4] DEBUG - 從CRM取得UserInfo, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='00000000-0000-0000-0000-000000000000'  
+2020-10-19 10:42:10,574 [4] DEBUG - 查詢紀錄完成。共27筆。
+2020-10-19 10:42:14,909 [14] DEBUG - SSO登入取得token, GetUserInfoBy sql: SELECT TOP 1  A.UserId, A.UserName, A.UserCode, B.RoleId, C.RoleName  FROM SSEC001_UserInfo A  LEFT JOIN SSEC005_UserRole B ON B.UserId = A.UserId AND B.UsedMark = '1'  LEFT JOIN SSEC004_RoleId C ON C.RoleId = B.RoleId AND C.UsedMark = '1'  WHERE A.UserId='99999999-0000-0000-0000-000000000002' AND A.UsedMark = '1' 
+2020-10-19 10:42:14,965 [14] DEBUG - SSO登入取得token, GetCRMUserInfoBy sql: SELECT SystemUserId AS UserId, FullName AS UserName, EmployeeId AS UserCode, MobilePhone AS Telephone  FROM SystemUserBase  WHERE SystemUserId='99999999-0000-0000-0000-000000000002'  
+2020-10-19 10:42:15,202 [14] DEBUG - SSO登入取得token成功！token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJVc2VyMiIsImp0aSI6ImM4ODEwMjJkLTIxYmItNGI3ZC1iMTc1LTNhYjZiNThjMGZmMiIsInJvbGVzIjpbIkFkbWluIiwiVXNlcnMiXSwibmJmIjoxNjAzMDc1MzM1LCJleHAiOjE2MDMwNzcxMzUsImlhdCI6MTYwMzA3NTMzNSwiaXNzIjoiSnd0QXV0aERlbW8ifQ.4qhDty-h0yaFVcFqmDnzDqMMLD6yGDwy76t0GNuPgFg' 
+2020-10-19 10:42:19,783 [4] DEBUG - Config設定為不需要發送OTP簡訊。
+2020-10-19 10:42:19,833 [4] DEBUG - 依據UserCode:[0912123456],Telephone:[ABC]找不到UserId,置UserId=[00000000-0000-0000-0000-000000000000]
+2020-10-19 10:42:19,893 [4] ERROR - 發送OTP成功！CellPhone='0912123456', UserCode='ABC',OTP=608282
+2020-10-19 10:42:27,453 [13] DEBUG - 驗證OTP:參數OTPTest為true，且輸入VerifyCode=111111, 視為驗證成功!
+2020-10-19 10:42:27,528 [13] DEBUG - VerifyOTP, VerifyOTP sql: SELECT TOP 1  A.UserId, A.UserName, B.RoleId, C.RoleName  FROM SSEC001_UserInfo A  LEFT JOIN SSEC005_UserRole B ON B.UserId = A.UserId AND B.UsedMark = '1'  LEFT JOIN SSEC004_RoleId C ON C.RoleId = B.RoleId AND C.UsedMark = '1'  WHERE A.UserCode='ABC' AND A.Telephone='0912123456' AND A.UsedMark = '1' 
+2020-10-19 10:42:27,581 [13] DEBUG - VerifyOTP, GetCRMUserInfoBy sql: SELECT TOP 1  SystemUserId AS UserId, FullName AS UserName  FROM SystemUserBase  WHERE EmployeeId='ABC' AND MobilePhone='0912123456' 
+2020-10-19 10:42:27,634 [13] DEBUG - 驗證OTP成功！CellPhone='0912123456', UserCode='ABC',TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBQkMiLCJqdGkiOiI4NjNiMzFjNy1lNDA2LTQ1OWQtYjFlZS02MWE1MjAyYzA0ODQiLCJyb2xlcyI6WyJBZG1pbiIsIlVzZXJzIl0sIm5iZiI6MTYwMzA3NTM0NywiZXhwIjoxNjA2MDc1MzQ3LCJpYXQiOjE2MDMwNzUzNDcsImlzcyI6Ikp3dEF1dGhEZW1vIn0.8gh7YxUyF8V-OK32TbgXpYcaynSRouMAh_TT0bOEtDQ'

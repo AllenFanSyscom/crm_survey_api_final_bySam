@@ -1,0 +1,56 @@
+2020-10-15 09:33:29,327 [8] ERROR - 驗證token失敗!未傳入當前時間or逾期時間！
+2020-10-15 13:33:36,009 [10] DEBUG - SSO登入取得token, GetUserInfoBy sql: SELECT TOP 1  A.UserId, A.UserName, A.UserCode, B.RoleId, C.RoleName  FROM SSEC001_UserInfo A  LEFT JOIN SSEC005_UserRole B ON B.UserId = A.UserId AND B.UsedMark = '1'  LEFT JOIN SSEC004_RoleId C ON C.RoleId = B.RoleId AND C.UsedMark = '1'  WHERE A.UserId='99999999-0000-0000-0000-000000000002' AND A.UsedMark = '1' 
+2020-10-15 13:33:36,218 [10] DEBUG - SSO登入取得token成功！token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5OTk5OTk5OS0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDIiLCJqdGkiOiI4NDdhZTI1MS1hYTg4LTRlN2UtOGIzMC1kNTdkMTY4Yzc3MGIiLCJyb2xlcyI6WyJBZG1pbiIsIlVzZXJzIl0sIm5iZiI6MTYwMjc0MDAxNiwiZXhwIjoxNjAyNzQxODE2LCJpYXQiOjE2MDI3NDAwMTYsImlzcyI6Ikp3dEF1dGhEZW1vIn0.aotutA_0U9mk1VI7jXWiEX5KOirWhrm4vBZjV_rNiJg' 
+2020-10-15 13:34:01,001 [16] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-15 13:34:01,073 [16] ERROR - 發送OTP失敗!用戶不存在！
+2020-10-15 13:34:03,337 [22] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-15 13:34:03,411 [22] ERROR - 發送OTP失敗!用戶不存在！
+2020-10-15 13:34:38,581 [4] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-15 13:34:39,209 [4] ERROR - 發送OTP失敗!用戶不存在！
+2020-10-15 13:35:09,586 [17] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-15 13:36:07,496 [9] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-15 13:36:13,594 [9] ERROR - 發送OTP失敗!用戶不存在！
+2020-10-15 13:36:25,686 [15] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-15 13:37:09,493 [4] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-15 13:37:18,075 [4] DEBUG - queryByPage:sql='SELECT A.SurveyId, A.Title, A.Audit,  NULL AS StartDate, NULL AS EndDate, NULL AS[Status], SYSDATETIME() AS SysDate,  COUNT(B.ReplyId) AS ReplyNum, COUNT(D.SurveyId) AS SurveyNumInQUE002, A.CreateUserId, C.UserName AS CreateUserName, A.CreateDateTime, A.UpdDateTime  FROM QUE001_QuestionnaireBase A  LEFT JOIN QUE021_AnwserCollection B ON B.SurveyId = A.SurveyId  LEFT JOIN SSEC001_UserInfo C ON C.UserId=A.CreateUserId  LEFT JOIN QUE002_QuestionnaireDetail D ON D.SurveyId=A.SurveyId  WHERE A.CreateUserId='99999999-0000-0000-0000-000000000002'  GROUP BY A.SurveyId, A.Title, A.Audit,  A.CreateUserId, C.UserName, A.CreateDateTime, A.UpdDateTime  ORDER BY A.UpdDateTime DESC '
+2020-10-15 13:37:18,689 [4] DEBUG - 查詢紀錄完成。共1筆。
+2020-10-15 13:44:05,755 [11] ERROR - 驗證token失敗!未傳入用戶資料！
+2020-10-15 13:44:23,330 [4] ERROR - 驗證token失敗!未傳入用戶資料！
+2020-10-15 13:45:01,001 [20] ERROR - 驗證token失敗!未傳入用戶資料！
+2020-10-15 13:45:36,510 [18] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-15 13:45:38,629 [18] ERROR - 發送OTP失敗!用戶不存在！
+2020-10-15 13:45:50,635 [28] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-15 13:46:45,125 [4] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-15 13:47:35,768 [8] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-15 13:48:00,473 [8] DEBUG - queryByPage:sql='SELECT A.SurveyId, A.Title, A.Audit,  NULL AS StartDate, NULL AS EndDate, NULL AS[Status], SYSDATETIME() AS SysDate,  COUNT(B.ReplyId) AS ReplyNum, COUNT(D.SurveyId) AS SurveyNumInQUE002, A.CreateUserId, C.UserName AS CreateUserName, A.CreateDateTime, A.UpdDateTime  FROM QUE001_QuestionnaireBase A  LEFT JOIN QUE021_AnwserCollection B ON B.SurveyId = A.SurveyId  LEFT JOIN SSEC001_UserInfo C ON C.UserId=A.CreateUserId  LEFT JOIN QUE002_QuestionnaireDetail D ON D.SurveyId=A.SurveyId  WHERE A.CreateUserId='99999999-0000-0000-0000-000000000002'  GROUP BY A.SurveyId, A.Title, A.Audit,  A.CreateUserId, C.UserName, A.CreateDateTime, A.UpdDateTime  ORDER BY A.UpdDateTime DESC '
+2020-10-15 13:48:01,065 [8] DEBUG - 查詢紀錄完成。共1筆。
+2020-10-15 13:48:13,956 [12] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-15 13:48:18,542 [12] DEBUG - queryByPage:sql='SELECT A.SurveyId, A.Title, A.Audit,  NULL AS StartDate, NULL AS EndDate, NULL AS[Status], SYSDATETIME() AS SysDate,  COUNT(B.ReplyId) AS ReplyNum, COUNT(D.SurveyId) AS SurveyNumInQUE002, A.CreateUserId, C.UserName AS CreateUserName, A.CreateDateTime, A.UpdDateTime  FROM QUE001_QuestionnaireBase A  LEFT JOIN QUE021_AnwserCollection B ON B.SurveyId = A.SurveyId  LEFT JOIN SSEC001_UserInfo C ON C.UserId=A.CreateUserId  LEFT JOIN QUE002_QuestionnaireDetail D ON D.SurveyId=A.SurveyId  WHERE A.CreateUserId='99999999-0000-0000-0000-000000000002'  GROUP BY A.SurveyId, A.Title, A.Audit,  A.CreateUserId, C.UserName, A.CreateDateTime, A.UpdDateTime  ORDER BY A.UpdDateTime DESC '
+2020-10-15 13:48:18,769 [12] DEBUG - 查詢紀錄完成。共1筆。
+2020-10-15 13:48:39,817 [14] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-15 13:48:45,125 [14] DEBUG - queryByPage:sql='SELECT A.SurveyId, A.Title, A.Audit,  NULL AS StartDate, NULL AS EndDate, NULL AS[Status], SYSDATETIME() AS SysDate,  COUNT(B.ReplyId) AS ReplyNum, COUNT(D.SurveyId) AS SurveyNumInQUE002, A.CreateUserId, C.UserName AS CreateUserName, A.CreateDateTime, A.UpdDateTime  FROM QUE001_QuestionnaireBase A  LEFT JOIN QUE021_AnwserCollection B ON B.SurveyId = A.SurveyId  LEFT JOIN SSEC001_UserInfo C ON C.UserId=A.CreateUserId  LEFT JOIN QUE002_QuestionnaireDetail D ON D.SurveyId=A.SurveyId  GROUP BY A.SurveyId, A.Title, A.Audit,  A.CreateUserId, C.UserName, A.CreateDateTime, A.UpdDateTime  ORDER BY A.UpdDateTime DESC '
+2020-10-15 13:48:45,362 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:45,430 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:45,503 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:45,570 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:45,643 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:45,730 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:45,803 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:45,888 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:45,961 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:46,030 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:46,107 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:46,182 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:46,251 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:46,322 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:46,389 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:46,449 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:46,512 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:46,582 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:46,711 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:46,778 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:46,840 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:46,899 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:46,960 [14] DEBUG - CRM New_statuscode 空白，依據config產生Status
+2020-10-15 13:48:46,961 [14] DEBUG - 查詢紀錄完成。共24筆。
+2020-10-15 13:50:22,392 [9] DEBUG - api/Survey/Detail/QueryByPage:88888888-0000-0000-0000-000000000005排除[其他]選項

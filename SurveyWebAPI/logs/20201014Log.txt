@@ -1,0 +1,6 @@
+2020-10-14 17:48:20,071 [4] DEBUG - SSO登入取得token, GetUserInfoBy sql: SELECT TOP 1  A.UserId, A.UserName, A.UserCode, B.RoleId, C.RoleName  FROM SSEC001_UserInfo A  LEFT JOIN SSEC005_UserRole B ON B.UserId = A.UserId AND B.UsedMark = '1'  LEFT JOIN SSEC004_RoleId C ON C.RoleId = B.RoleId AND C.UsedMark = '1'  WHERE A.UserId='99999999-0000-0000-0000-000000000002' AND A.UsedMark = '1' 
+2020-10-14 17:48:20,366 [4] DEBUG - SSO登入取得token成功！token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5OTk5OTk5OS0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDIiLCJqdGkiOiI4YjkzY2JhZi0wNTcyLTRhMWMtOTkxOS00Y2U3NzE4M2FhZDAiLCJyb2xlcyI6IkFkbWluIiwiRXhwaXJlc1RpbWUiOiIxNjAyNjcwNzAwIiwiTm90QmVmb3JlVGltZSI6IjE2MDI2Njg5MDAiLCJuYmYiOjE2MDI2Njg5MDAsImV4cCI6MTYwMjY3MDcwMCwiaWF0IjoxNjAyNjY4OTAwLCJpc3MiOiJKd3RBdXRoRGVtbyJ9.3SXG6NzvpBVyHkNPDFTy420wWW-OpY-bw6vDbBuyzZQ' 
+2020-10-14 18:11:09,545 [11] ERROR - 驗證token失敗!未傳入當前時間or逾期時間！
+2020-10-14 18:20:56,649 [4] ERROR - 驗證token失敗!未傳入當前時間or逾期時間！
+2020-10-14 18:31:19,433 [10] ERROR - 驗證token失敗!未傳入當前時間or逾期時間！
+2020-10-14 18:38:19,813 [4] ERROR - 驗證token失敗!未傳入當前時間or逾期時間！

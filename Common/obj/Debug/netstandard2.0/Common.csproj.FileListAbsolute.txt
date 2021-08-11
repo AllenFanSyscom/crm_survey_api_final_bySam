@@ -1,0 +1,17 @@
+D:\Projects\crm.v9\crm_survey_api_fortify\Common\bin\Debug\netstandard2.0\Common.deps.json
+D:\Projects\crm.v9\crm_survey_api_fortify\Common\bin\Debug\netstandard2.0\Common.dll
+D:\Projects\crm.v9\crm_survey_api_fortify\Common\bin\Debug\netstandard2.0\Common.pdb
+D:\Projects\crm.v9\crm_survey_api_fortify\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+D:\Projects\crm.v9\crm_survey_api_fortify\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+D:\Projects\crm.v9\crm_survey_api_fortify\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+D:\Projects\crm.v9\crm_survey_api_fortify\Common\obj\Debug\netstandard2.0\Common.dll
+D:\Projects\crm.v9\crm_survey_api_fortify\Common\obj\Debug\netstandard2.0\Common.pdb
+C:\Users\User\Desktop\0809\crm_survey_api_final\crm_survey_api_fortify\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\Users\User\Desktop\0809\crm_survey_api_final\crm_survey_api_fortify\Common\bin\Debug\netstandard2.0\Common.dll
+C:\Users\User\Desktop\0809\crm_survey_api_final\crm_survey_api_fortify\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\Users\User\Desktop\0809\crm_survey_api_final\crm_survey_api_fortify\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+C:\Users\User\Desktop\0809\crm_survey_api_final\crm_survey_api_fortify\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\0809\crm_survey_api_final\crm_survey_api_fortify\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\Users\User\Desktop\0809\crm_survey_api_final\crm_survey_api_fortify\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\0809\crm_survey_api_final\crm_survey_api_fortify\Common\obj\Debug\netstandard2.0\Common.dll
+C:\Users\User\Desktop\0809\crm_survey_api_final\crm_survey_api_fortify\Common\obj\Debug\netstandard2.0\Common.pdb

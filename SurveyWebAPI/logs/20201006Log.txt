@@ -1,0 +1,214 @@
+2020-10-06 00:25:51,628 [5] DEBUG - 驗證OTP:參數OTPTest為true，且輸入VerifyCode=111111, 視為驗證成功!
+2020-10-06 00:25:54,864 [5] DEBUG - VerifyOTP, VerifyOTP sql: SELECT TOP 1  A.UserId, A.UserName, B.RoleId, C.RoleName  FROM SSEC001_UserInfo A  LEFT JOIN SSEC005_UserRole B ON B.UserId = A.UserId AND B.UsedMark = '1'  LEFT JOIN SSEC004_RoleId C ON C.RoleId = B.RoleId AND C.UsedMark = '1'  WHERE A.UserCode='ABC' AND A.Telephone='0912123456' AND A.UsedMark = '1' 
+2020-10-06 00:25:55,575 [5] DEBUG - 驗證OTP成功！CellPhone='0912123456', UserCode='ABC',TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBQkMiLCJqdGkiOiI4MjVkY2JhYi1kNjg5LTQ4ZDUtODg3ZC1mNzg5M2Q1NWVjMDYiLCJyb2xlcyI6WyJBZG1pbiIsIlVzZXJzIl0sIm5iZiI6MTYwMTkxNTE1NCwiZXhwIjoxNjAxOTE2OTU0LCJpYXQiOjE2MDE5MTUxNTQsImlzcyI6Ikp3dEF1dGhEZW1vIn0.Pz1bc2ql6Or2-FXhoM7LKlyX29_-S6cNPa7ROyU9vEQ'
+2020-10-06 00:27:09,587 [14] DEBUG - 主畫面操作-帳號列表...
+2020-10-06 00:27:09,674 [14] DEBUG - 資料取得成功。共5筆。
+2020-10-06 00:27:19,406 [20] DEBUG - 主畫面操作-帳號列表...
+2020-10-06 00:27:19,492 [20] DEBUG - 資料取得成功。共5筆。
+2020-10-06 00:28:26,878 [24] DEBUG - 驗證成功！ValidField='10', ValidData='0987654321'
+2020-10-06 00:28:43,483 [28] DEBUG - 查詢QUE009_QuestionnaireProvideType:select ValidRegister,MultiProvideType,ReplyMaxNum from QUE009_QuestionnaireProvideType where SurveyId='11111111-1111-1111-0000-000000000000' and ProvideType=1 
+2020-10-06 00:28:43,561 [28] DEBUG - 該問卷填寫數量QUE021_AnwserCollection:select count(ReplyId) from QUE021_AnwserCollection where SurveyId='11111111-1111-1111-0000-000000000000' 
+2020-10-06 00:28:43,636 [28] DEBUG - 新增QUE021_AnwserCollection:insert into QUE021_AnwserCollection values('11111111-1111-1111-0000-000000000000',1,'答案1','1','1','M','false','2020-08-26','2020-08-26 09:33:41.5124538',1,'0','fd0f07ba-607b-4a29-85ed-8d4176c5e4bb') 
+2020-10-06 00:28:43,788 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'C966C83F-CA88-4492-B47D-A82A478ED40C','693D32F1-E859-41DC-9376-FC8E08B1B999','','') 
+2020-10-06 00:28:43,865 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'9ECC06C5-6AD3-47A4-ABCE-9193F25D09F2','2E6DE557-A6C8-4F62-972C-4AF2A3917C0D','','店員熱情介紹') 
+2020-10-06 00:28:43,934 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'8DDAF2E8-77C4-4632-8154-7F48014F947C','DB914E83-1AEF-4E54-AEE5-0E780ADAF302','','') 
+2020-10-06 00:28:44,009 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'64BF67FB-B418-406E-A4DF-77E37BE28713','575113AC-4D21-4AE4-B32C-BB616BC5D4E0','','') 
+2020-10-06 00:28:44,084 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'64BF67FB-B418-406E-A4DF-77E37BE28713','93462BEB-4CFC-43D7-B3D4-852B1B5B5743','','') 
+2020-10-06 00:28:44,155 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'64BF67FB-B418-406E-A4DF-77E37BE28713','F28F7491-4B0B-40B3-B473-EF8F533963D0','','不清楚') 
+2020-10-06 00:28:44,225 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'64BF67FB-B418-406E-A4DF-77E37BE28713','54078058-FBFD-4E32-B294-E783EA87F61D','','') 
+2020-10-06 00:28:44,294 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'2D4F6C8B-AD92-4FBF-A000-9DA8A8BCFB1D',null,'','簡單操作') 
+2020-10-06 00:28:44,356 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'DC6E5E09-5841-42CD-825A-27238F29E666',null,'','666666') 
+2020-10-06 00:28:44,435 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'6C3DBC00-3D0D-4022-AD8F-9DC067B6C000',null,'','88888888') 
+2020-10-06 00:28:44,507 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'B8804C96-D73C-43DD-B4DE-D19E632F9CF5',null,'','F123456789 ') 
+2020-10-06 00:28:44,584 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'9955403B-B993-487C-9C3E-E3791549E91B',null,'','survey@cht.com') 
+2020-10-06 00:28:44,654 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'D0B90DC4-A874-4410-8A7F-27719C9B3C70',null,'','911234567') 
+2020-10-06 00:28:44,723 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'4E34E45E-CA0F-440D-A196-47A7972DC692',null,'','') 
+2020-10-06 00:28:44,794 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'6B80EAD4-311C-4D88-A878-071A1D5EB24A','FA0773EC-A4C8-4E5B-A25C-8E1A8DC7DFF1','我想我會願意經常使用這個網站/產品/系統','') 
+2020-10-06 00:28:45,163 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'6B80EAD4-311C-4D88-A878-071A1D5EB24A','199258C5-C1E1-4F87-877F-72551481B3D3','我認為這個網站/產品/系統沒必要這麼複雜','') 
+2020-10-06 00:28:45,224 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'6B80EAD4-311C-4D88-A878-071A1D5EB24A','6C345E8B-5841-4889-8E9B-83B58B9FA92E','我認為這個網站/產品/系統很容易使用','') 
+2020-10-06 00:28:45,284 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'6B80EAD4-311C-4D88-A878-071A1D5EB24A','FA0773EC-A4C8-4E5B-A25C-8E1A8DC7DFF1','我覺得需要有經驗的人來協助，我才能使用這個網站/產品/系統','') 
+2020-10-06 00:28:45,342 [28] DEBUG - 新增QUE022_AnwserCollectionDetail:insert into QUE022_AnwserCollectionDetail values(26,'6B80EAD4-311C-4D88-A878-071A1D5EB24A','199258C5-C1E1-4F87-877F-72551481B3D3','我覺得這個網站/產品/系統的功能整合得很好','') 
+2020-10-06 00:31:51,289 [11] DEBUG - 驗證OTP:參數OTPTest為true，且輸入VerifyCode=111111, 視為驗證成功!
+2020-10-06 00:31:54,942 [11] DEBUG - VerifyOTP, VerifyOTP sql: SELECT TOP 1  A.UserId, A.UserName, B.RoleId, C.RoleName  FROM SSEC001_UserInfo A  LEFT JOIN SSEC005_UserRole B ON B.UserId = A.UserId AND B.UsedMark = '1'  LEFT JOIN SSEC004_RoleId C ON C.RoleId = B.RoleId AND C.UsedMark = '1'  WHERE A.UserCode='ABC' AND A.Telephone='0912123456' AND A.UsedMark = '1' 
+2020-10-06 00:31:55,537 [11] DEBUG - 驗證OTP成功！CellPhone='0912123456', UserCode='ABC',TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBQkMiLCJqdGkiOiI2NjVlYjUzYi1hOWU2LTQ3MjktOWI0MS1jNTNhMzUyMjMwNTQiLCJyb2xlcyI6WyJBZG1pbiIsIlVzZXJzIl0sIm5iZiI6MTYwMTkxNTUxNCwiZXhwIjoxNjA0OTE1NTE0LCJpYXQiOjE2MDE5MTU1MTQsImlzcyI6Ikp3dEF1dGhEZW1vIn0.cBgO1sj3EE-5ilY7v21gTea1s6Xwc0C6mEnnCMcawEE'
+2020-10-06 00:34:44,503 [24] DEBUG - 角色-查詢全部角色
+2020-10-06 00:36:31,147 [35] DEBUG - 查詢：Query all data from SSEC001_UserInfo...
+2020-10-06 00:37:11,673 [31] DEBUG - 主畫面操作-帳號列表...
+2020-10-06 00:37:11,747 [31] DEBUG - 資料取得成功。共5筆。
+2020-10-06 00:37:48,790 [43] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-06 00:37:48,883 [43] DEBUG - 查詢紀錄完成。共15筆。
+2020-10-06 00:49:35,146 [38] DEBUG - 收集回覆-查詢:SELECT * FROM QUE009_QuestionnaireProvideType  WHERE 1=1  AND SurveyId='88888888-0000-0000-0000-000000000005' 
+2020-10-06 00:49:58,694 [33] DEBUG - QuestionSubject from DB:[{"type":"paragraph","children":[{"text":"請問是否有人申請行動上網"},{"text":"吃到飽","italic":true},{"text":"方案?"}]}]
+2020-10-06 00:49:58,702 [33] DEBUG - Converted QuestionTitle:[{"type":"paragraph","children":[{"text":"請問是否有人申請行動上網"},{"text":"吃到飽","italic":true},{"text":"方案?"}]}]
+2020-10-06 00:49:59,043 [33] DEBUG - QuestionSubject from DB:[{"type":"paragraph","children":[{"text":"單選題測試"}]}]
+2020-10-06 00:49:59,043 [33] DEBUG - Converted QuestionTitle:[{"type":"paragraph","children":[{"text":"單選題測試"}]}]
+2020-10-06 00:49:59,225 [33] DEBUG - QuestionSubject from DB:
+2020-10-06 00:49:59,227 [33] DEBUG - Converted QuestionTitle:
+2020-10-06 00:49:59,296 [33] DEBUG - QuestionSubject from DB:[{"type":"paragraph","children":[{"text":"前頁最後一題"}]}]
+2020-10-06 00:49:59,297 [33] DEBUG - Converted QuestionTitle:[{"type":"paragraph","children":[{"text":"前頁最後一題"}]}]
+2020-10-06 00:49:59,640 [33] DEBUG - QuestionSubject from DB:[{"type":"paragraph","children":[{"text":"換頁第一題"}]}]
+2020-10-06 00:49:59,641 [33] DEBUG - Converted QuestionTitle:[{"type":"paragraph","children":[{"text":"換頁第一題"}]}]
+2020-10-06 00:49:59,989 [33] DEBUG - QuestionSubject from DB:[{"type":"paragraph","children":[{"text":"請問您僅瀏覽或未完成線上申辦的原因是?"}]}]
+2020-10-06 00:49:59,990 [33] DEBUG - Converted QuestionTitle:[{"type":"paragraph","children":[{"text":"請問您僅瀏覽或未完成線上申辦的原因是?"}]}]
+2020-10-06 00:50:00,534 [33] DEBUG - QuestionSubject from DB:[{"type":"paragraph","children":[{"text":"換頁第二題"}]}]
+2020-10-06 00:50:00,535 [33] DEBUG - Converted QuestionTitle:[{"type":"paragraph","children":[{"text":"換頁第二題"}]}]
+2020-10-06 00:50:00,874 [33] DEBUG - QuestionSubject from DB:[{"type":"paragraph","children":[{"text":"請問你家寵物?"}]}]
+2020-10-06 00:50:00,875 [33] DEBUG - Converted QuestionTitle:[{"type":"paragraph","children":[{"text":"請問你家寵物?"}]}]
+2020-10-06 00:50:01,010 [33] DEBUG - QuestionSubject from DB:[{"type":"paragraph","children":[{"text":"請問申辦滿意度如何?"}]}]
+2020-10-06 00:50:01,011 [33] DEBUG - Converted QuestionTitle:請問申辦滿意度如何?
+2020-10-06 00:50:02,745 [33] DEBUG - QuestionSubject from DB:[{"type":"paragraph","children":[{"text":"請問你的HN號碼?"}]}]
+2020-10-06 00:50:02,746 [33] DEBUG - Converted QuestionTitle:[{"type":"paragraph","children":[{"text":"請問你的HN號碼?"}]}]
+2020-10-06 00:50:02,808 [33] DEBUG - 計算78fcdd4c-6015-4bc0-bb35-2edd8f25f2cf的XAxis,Max(OptionReplyNum)=1
+2020-10-06 00:50:02,809 [33] DEBUG - 計算78fcdd4c-6015-4bc0-bb35-2edd8f25f2cf的XAxis='0;2;4;6;8;10'
+2020-10-06 00:50:02,810 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='78fcdd4c-6015-4bc0-bb35-2edd8f25f2cf',選項='db876eb4-62d7-4048-8016-00afc6adffce'
+2020-10-06 00:50:02,810 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='78fcdd4c-6015-4bc0-bb35-2edd8f25f2cf',選項='e0ca4120-8914-4a84-a8a5-5453585edc3b'
+2020-10-06 00:50:02,810 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='78fcdd4c-6015-4bc0-bb35-2edd8f25f2cf',選項='452fc2c8-f170-44c4-816c-b7de7fca63d6'
+2020-10-06 00:50:02,811 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='78fcdd4c-6015-4bc0-bb35-2edd8f25f2cf',選項='dcb18c61-40f6-4807-a847-909c72bb3e4b'
+2020-10-06 00:50:02,811 [33] DEBUG - 計算4482b2cb-090a-4318-af04-ba9a28ce1590的XAxis,Max(OptionReplyNum)=0
+2020-10-06 00:50:02,811 [33] DEBUG - 計算4482b2cb-090a-4318-af04-ba9a28ce1590的XAxis='0'
+2020-10-06 00:50:02,811 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='4482b2cb-090a-4318-af04-ba9a28ce1590',選項='6531152c-a15a-40d8-ab8e-d9feba7ec391'
+2020-10-06 00:50:02,812 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='4482b2cb-090a-4318-af04-ba9a28ce1590',選項='2db4f4aa-b045-4a81-84ee-a2cd9729e7f5'
+2020-10-06 00:50:02,812 [33] DEBUG - 計算19f53371-b998-49bd-a591-2768bd66a9a5的XAxis,Max(OptionReplyNum)=0
+2020-10-06 00:50:02,812 [33] DEBUG - 計算19f53371-b998-49bd-a591-2768bd66a9a5的XAxis='0'
+2020-10-06 00:50:02,813 [33] DEBUG - 計算1ae09a67-a2b8-48e3-bfcc-2ce3d746729c的XAxis,Max(OptionReplyNum)=0
+2020-10-06 00:50:02,813 [33] DEBUG - 計算1ae09a67-a2b8-48e3-bfcc-2ce3d746729c的XAxis='0'
+2020-10-06 00:50:02,814 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='1ae09a67-a2b8-48e3-bfcc-2ce3d746729c',選項='268549cb-e386-4d38-8727-fad92ff8c792'
+2020-10-06 00:50:02,814 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='1ae09a67-a2b8-48e3-bfcc-2ce3d746729c',選項='7876d25f-71d8-4a71-abff-874e490ae0ef'
+2020-10-06 00:50:02,814 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='1ae09a67-a2b8-48e3-bfcc-2ce3d746729c',選項='f1d5accc-539b-4780-bf64-67226345b36f'
+2020-10-06 00:50:02,815 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='1ae09a67-a2b8-48e3-bfcc-2ce3d746729c',選項='0caa84e2-f774-4787-b8d6-4bfdca0902c6'
+2020-10-06 00:50:02,815 [33] DEBUG - 計算939d23f1-8bac-4751-b9eb-65881fe5a572的XAxis,Max(OptionReplyNum)=0
+2020-10-06 00:50:02,815 [33] DEBUG - 計算939d23f1-8bac-4751-b9eb-65881fe5a572的XAxis='0'
+2020-10-06 00:50:02,815 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='939d23f1-8bac-4751-b9eb-65881fe5a572',選項='c4f489fe-95f7-4eae-8ca3-ec8df9d7c19e'
+2020-10-06 00:50:02,816 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='939d23f1-8bac-4751-b9eb-65881fe5a572',選項='d23767ca-36cf-4a3c-a7c1-77f98560d66b'
+2020-10-06 00:50:02,816 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='939d23f1-8bac-4751-b9eb-65881fe5a572',選項='75909ebc-bf03-41fe-8475-135912955936'
+2020-10-06 00:50:02,816 [33] DEBUG - 計算9d812465-034e-4d60-a7fb-138986dff3d6的XAxis,Max(OptionReplyNum)=1
+2020-10-06 00:50:02,816 [33] DEBUG - 計算9d812465-034e-4d60-a7fb-138986dff3d6的XAxis='0;2;4;6;8;10'
+2020-10-06 00:50:02,817 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='9d812465-034e-4d60-a7fb-138986dff3d6',選項='418384b2-1650-4e8f-a135-cb4ccac7cec9'
+2020-10-06 00:50:02,817 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='9d812465-034e-4d60-a7fb-138986dff3d6',選項='9e55ed30-d968-406a-bd00-543cb7b620e8'
+2020-10-06 00:50:02,817 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='9d812465-034e-4d60-a7fb-138986dff3d6',選項='c1ccbacf-3339-4def-a83e-c8377788fecc'
+2020-10-06 00:50:02,818 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='9d812465-034e-4d60-a7fb-138986dff3d6',選項='3beaedb6-0c8c-4a5d-8bdb-a56e5ac1656e'
+2020-10-06 00:50:02,818 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='9d812465-034e-4d60-a7fb-138986dff3d6',選項='f5265f09-066c-4792-9711-73cb9dba4b71'
+2020-10-06 00:50:02,818 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='9d812465-034e-4d60-a7fb-138986dff3d6',選項='ca2d0297-e279-49de-b4b6-0190cd94596e'
+2020-10-06 00:50:02,818 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='9d812465-034e-4d60-a7fb-138986dff3d6',選項='d4d64b9e-64e9-4147-940d-aa268661462b'
+2020-10-06 00:50:02,818 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='9d812465-034e-4d60-a7fb-138986dff3d6',選項='91177c6a-031b-485b-92eb-25cd7e420953'
+2020-10-06 00:50:02,819 [33] DEBUG - 計算980d4742-5674-4885-b3cf-930520bc6461的XAxis,Max(OptionReplyNum)=0
+2020-10-06 00:50:02,819 [33] DEBUG - 計算980d4742-5674-4885-b3cf-930520bc6461的XAxis='0'
+2020-10-06 00:50:02,819 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='980d4742-5674-4885-b3cf-930520bc6461',選項='b5302c42-4934-440f-bed6-83f98a70ce4d'
+2020-10-06 00:50:02,820 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='980d4742-5674-4885-b3cf-930520bc6461',選項='cada6bcb-e5f9-42bd-b3a0-91b310e6d83e'
+2020-10-06 00:50:02,820 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='980d4742-5674-4885-b3cf-930520bc6461',選項='2ca96410-6c6d-4dfe-88e5-bef1790b3ab8'
+2020-10-06 00:50:02,820 [33] DEBUG - 計算b38522da-1c9d-4bc2-9c38-8a1742e1ef6c的XAxis,Max(OptionReplyNum)=0
+2020-10-06 00:50:02,820 [33] DEBUG - 計算b38522da-1c9d-4bc2-9c38-8a1742e1ef6c的XAxis='0'
+2020-10-06 00:50:02,821 [33] DEBUG - 計算d88bbedb-ad62-4d99-bf40-09bf9be3c109的XAxis,Max(OptionReplyNum)=5
+2020-10-06 00:50:02,821 [33] DEBUG - 計算d88bbedb-ad62-4d99-bf40-09bf9be3c109的XAxis='0;2;4;6;8;10'
+2020-10-06 00:50:02,821 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='52d41b57-28a1-4ddd-ba34-3d7eee3e0b85'
+2020-10-06 00:50:02,821 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='52d41b57-28a1-4ddd-ba34-3d7eee3e0b85'
+2020-10-06 00:50:02,822 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='52d41b57-28a1-4ddd-ba34-3d7eee3e0b85'
+2020-10-06 00:50:02,822 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='52d41b57-28a1-4ddd-ba34-3d7eee3e0b85'
+2020-10-06 00:50:02,822 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='52d41b57-28a1-4ddd-ba34-3d7eee3e0b85'
+2020-10-06 00:50:02,822 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='fefb73fd-a65f-4341-a2dd-fbd8294d9bea'
+2020-10-06 00:50:02,823 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='fefb73fd-a65f-4341-a2dd-fbd8294d9bea'
+2020-10-06 00:50:02,823 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='fefb73fd-a65f-4341-a2dd-fbd8294d9bea'
+2020-10-06 00:50:02,823 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='fefb73fd-a65f-4341-a2dd-fbd8294d9bea'
+2020-10-06 00:50:02,823 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='fefb73fd-a65f-4341-a2dd-fbd8294d9bea'
+2020-10-06 00:50:02,824 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='8410371f-5333-420e-838f-a3486ab29c19'
+2020-10-06 00:50:02,824 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='8410371f-5333-420e-838f-a3486ab29c19'
+2020-10-06 00:50:02,824 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='8410371f-5333-420e-838f-a3486ab29c19'
+2020-10-06 00:50:02,825 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='8410371f-5333-420e-838f-a3486ab29c19'
+2020-10-06 00:50:02,825 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='8410371f-5333-420e-838f-a3486ab29c19'
+2020-10-06 00:50:02,825 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='a61b158a-0fa7-40f5-9419-8181ec8b7a79'
+2020-10-06 00:50:02,825 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='a61b158a-0fa7-40f5-9419-8181ec8b7a79'
+2020-10-06 00:50:02,826 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='a61b158a-0fa7-40f5-9419-8181ec8b7a79'
+2020-10-06 00:50:02,826 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='a61b158a-0fa7-40f5-9419-8181ec8b7a79'
+2020-10-06 00:50:02,826 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='a61b158a-0fa7-40f5-9419-8181ec8b7a79'
+2020-10-06 00:50:02,827 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='5d58bebc-dacc-4042-8cf9-59b063e2056b'
+2020-10-06 00:50:02,827 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='5d58bebc-dacc-4042-8cf9-59b063e2056b'
+2020-10-06 00:50:02,827 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='5d58bebc-dacc-4042-8cf9-59b063e2056b'
+2020-10-06 00:50:02,827 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='5d58bebc-dacc-4042-8cf9-59b063e2056b'
+2020-10-06 00:50:02,828 [33] DEBUG - 成效分析-數據查詢，計算選項百分比，題目='d88bbedb-ad62-4d99-bf40-09bf9be3c109',選項='5d58bebc-dacc-4042-8cf9-59b063e2056b'
+2020-10-06 00:50:02,828 [33] DEBUG - 計算7d49fd5d-9a35-40be-a03a-008bf263a52a的XAxis,Max(OptionReplyNum)=0
+2020-10-06 00:50:02,828 [33] DEBUG - 計算7d49fd5d-9a35-40be-a03a-008bf263a52a的XAxis='0'
+2020-10-06 16:32:27,376 [4] DEBUG - 我的範本-列表...
+2020-10-06 16:32:27,541 [4] DEBUG - 我的範本-列表:select a.TemplateId,a.Title as Subject,count(b.QuestionId) as TotalQuestionNum from QUE011_TemplateBase a 
+                                       left join QUE012_TemplateDetail b on a.TemplateId=b.TemplateId group by a.TemplateId,a.Title 
+2020-10-06 16:32:48,390 [14] DEBUG - 我的範本-新增...
+2020-10-06 16:32:48,394 [14] DEBUG - 我的範本-新增:select count(1) as num from QUE002_QuestionnaireDetail where SurveyId='11111111-0000-0000-0000-000000000000' 
+2020-10-06 16:32:48,475 [14] ERROR - 我的範本-新增失敗!空白問卷不能新增範本！
+2020-10-06 16:33:02,346 [12] DEBUG - 主畫面操作-Get問卷清單列表...
+2020-10-06 16:33:02,428 [12] DEBUG - 查詢紀錄完成。共15筆。
+2020-10-06 16:33:14,783 [12] DEBUG - 我的範本-新增...
+2020-10-06 16:33:14,785 [12] DEBUG - 我的範本-新增:select count(1) as num from QUE002_QuestionnaireDetail where SurveyId='99999999-0000-0000-0000-000000000002' 
+2020-10-06 16:33:14,881 [12] DEBUG - Insert QUE011_TemplateBase:insert into QUE011_TemplateBase SELECT 'fd8892a3-953a-4a27-bcf2-18a16af7c24d','我的範本-複測1',FinalUrl,ThankWords,DueAction,DelFlag,Audit,'00000000-0000-0000-0000-000000000000','2020-10-06 16:33:14.8813681','00000000-0000-0000-0000-000000000000','2020-10-06 16:33:14.8813681',
+                                       StyleType,DefBackgroudColor,SurveyId,DefHeaderPic,DefHeaderPhonePic 
+                                       from QUE001_QuestionnaireBase where SurveyId='99999999-0000-0000-0000-000000000002'
+2020-10-06 16:33:15,010 [12] DEBUG - Insert QUE012_TemplateDetail:insert into QUE012_TemplateDetail SELECT 'fd8892a3-953a-4a27-bcf2-18a16af7c24d','7b4c1920-3e03-40d8-8500-e07837046f17',QuestionSeq,QuestionType,QuestionSubject,SubjectStyle,QuestionNote,
+                                        PageNo,IsRequired,HasOther,OtherIsShowText,OtherVerify,OtherTextMandatory,OtherCheckMessage,IsSetShowNum,PCRowNum,MobileRowNum,
+                                        IsRamdomOption,ExcludeOther,BaseDataValidType,BlankDefaultWords,BlankValidType,MatrixItems,'00000000-0000-0000-0000-000000000000','2020-10-06 16:33:14.8813681',BlankMaxLimit,BlankMinLimit,QuestionImage,QuestionVideo,MultiOptionLimit  
+                                        from QUE002_QuestionnaireDetail where SurveyId='99999999-0000-0000-0000-000000000002' and QuestionId='6cc00299-85bb-49a4-9708-6844dfa1fbda'
+2020-10-06 16:33:15,076 [12] DEBUG - Insert QUE013_TemplateOptions:insert into QUE013_TemplateOptions SELECT '7b4c1920-3e03-40d8-8500-e07837046f17',NEWID(),OptionSeq,OptionType,OptionContent,ChildQuestionId,'00000000-0000-0000-0000-000000000000','2020-10-06 16:33:14.8813681',OptionImage,OptionVideo  
+                                        from QUE003_QuestionnaireOptions where QuestionId='6cc00299-85bb-49a4-9708-6844dfa1fbda'
+2020-10-06 16:33:15,148 [12] DEBUG - Insert QUE012_TemplateDetail:insert into QUE012_TemplateDetail SELECT 'fd8892a3-953a-4a27-bcf2-18a16af7c24d','b2c351fe-cff3-4e0c-8a53-130e0380d3a8',QuestionSeq,QuestionType,QuestionSubject,SubjectStyle,QuestionNote,
+                                        PageNo,IsRequired,HasOther,OtherIsShowText,OtherVerify,OtherTextMandatory,OtherCheckMessage,IsSetShowNum,PCRowNum,MobileRowNum,
+                                        IsRamdomOption,ExcludeOther,BaseDataValidType,BlankDefaultWords,BlankValidType,MatrixItems,'00000000-0000-0000-0000-000000000000','2020-10-06 16:33:14.8813681',BlankMaxLimit,BlankMinLimit,QuestionImage,QuestionVideo,MultiOptionLimit  
+                                        from QUE002_QuestionnaireDetail where SurveyId='99999999-0000-0000-0000-000000000002' and QuestionId='6c2927e8-b578-4ed2-8a3a-9ed28581680e'
+2020-10-06 16:33:15,217 [12] DEBUG - Insert QUE013_TemplateOptions:insert into QUE013_TemplateOptions SELECT 'b2c351fe-cff3-4e0c-8a53-130e0380d3a8',NEWID(),OptionSeq,OptionType,OptionContent,ChildQuestionId,'00000000-0000-0000-0000-000000000000','2020-10-06 16:33:14.8813681',OptionImage,OptionVideo  
+                                        from QUE003_QuestionnaireOptions where QuestionId='6c2927e8-b578-4ed2-8a3a-9ed28581680e'
+2020-10-06 16:33:15,294 [12] DEBUG - Insert QUE012_TemplateDetail:insert into QUE012_TemplateDetail SELECT 'fd8892a3-953a-4a27-bcf2-18a16af7c24d','e5bcdd50-db16-4066-a904-3507cde00d2a',QuestionSeq,QuestionType,QuestionSubject,SubjectStyle,QuestionNote,
+                                        PageNo,IsRequired,HasOther,OtherIsShowText,OtherVerify,OtherTextMandatory,OtherCheckMessage,IsSetShowNum,PCRowNum,MobileRowNum,
+                                        IsRamdomOption,ExcludeOther,BaseDataValidType,BlankDefaultWords,BlankValidType,MatrixItems,'00000000-0000-0000-0000-000000000000','2020-10-06 16:33:14.8813681',BlankMaxLimit,BlankMinLimit,QuestionImage,QuestionVideo,MultiOptionLimit  
+                                        from QUE002_QuestionnaireDetail where SurveyId='99999999-0000-0000-0000-000000000002' and QuestionId='44ab9b83-a9d6-42b6-be66-b6be4a4dcf34'
+2020-10-06 16:33:15,386 [12] DEBUG - Insert QUE013_TemplateOptions:insert into QUE013_TemplateOptions SELECT 'e5bcdd50-db16-4066-a904-3507cde00d2a',NEWID(),OptionSeq,OptionType,OptionContent,ChildQuestionId,'00000000-0000-0000-0000-000000000000','2020-10-06 16:33:14.8813681',OptionImage,OptionVideo  
+                                        from QUE003_QuestionnaireOptions where QuestionId='44ab9b83-a9d6-42b6-be66-b6be4a4dcf34'
+2020-10-06 16:33:15,470 [12] DEBUG - Insert QUE014_TemplateSetting:insert into QUE014_TemplateSetting select 'fd8892a3-953a-4a27-bcf2-18a16af7c24d',IsShowPageNo,IsShowQuestionNo,IsShowRequiredStar,
+                                        IsShowProgress,PorgressPosition,ProgressStyle,UseVirifyCode,IsOneQuestionPerPage,IsPublishResult,IsShowEndPage,
+                                        '00000000-0000-0000-0000-000000000000','2020-10-06 16:33:14.8813681' from QUE004_QuestionnaireSetting where SurveyId = '99999999-0000-0000-0000-000000000002'
+2020-10-06 16:33:21,212 [15] DEBUG - 我的範本-新增...
+2020-10-06 16:33:21,213 [15] DEBUG - 我的範本-新增:select count(1) as num from QUE002_QuestionnaireDetail where SurveyId='99999999-0000-0000-0000-000000000002' 
+2020-10-06 16:33:21,311 [15] DEBUG - Insert QUE011_TemplateBase:insert into QUE011_TemplateBase SELECT 'a4c29061-d714-4299-9ec6-e3f1c49fd513','我的範本-複測11',FinalUrl,ThankWords,DueAction,DelFlag,Audit,'00000000-0000-0000-0000-000000000000','2020-10-06 16:33:21.3110782','00000000-0000-0000-0000-000000000000','2020-10-06 16:33:21.3110782',
+                                       StyleType,DefBackgroudColor,SurveyId,DefHeaderPic,DefHeaderPhonePic 
+                                       from QUE001_QuestionnaireBase where SurveyId='99999999-0000-0000-0000-000000000002'
+2020-10-06 16:33:21,452 [15] DEBUG - Insert QUE012_TemplateDetail:insert into QUE012_TemplateDetail SELECT 'a4c29061-d714-4299-9ec6-e3f1c49fd513','fa5403a4-ebed-4f05-b470-fa531777b2d0',QuestionSeq,QuestionType,QuestionSubject,SubjectStyle,QuestionNote,
+                                        PageNo,IsRequired,HasOther,OtherIsShowText,OtherVerify,OtherTextMandatory,OtherCheckMessage,IsSetShowNum,PCRowNum,MobileRowNum,
+                                        IsRamdomOption,ExcludeOther,BaseDataValidType,BlankDefaultWords,BlankValidType,MatrixItems,'00000000-0000-0000-0000-000000000000','2020-10-06 16:33:21.3110782',BlankMaxLimit,BlankMinLimit,QuestionImage,QuestionVideo,MultiOptionLimit  
+                                        from QUE002_QuestionnaireDetail where SurveyId='99999999-0000-0000-0000-000000000002' and QuestionId='6cc00299-85bb-49a4-9708-6844dfa1fbda'
+2020-10-06 16:33:21,517 [15] DEBUG - Insert QUE013_TemplateOptions:insert into QUE013_TemplateOptions SELECT 'fa5403a4-ebed-4f05-b470-fa531777b2d0',NEWID(),OptionSeq,OptionType,OptionContent,ChildQuestionId,'00000000-0000-0000-0000-000000000000','2020-10-06 16:33:21.3110782',OptionImage,OptionVideo  
+                                        from QUE003_QuestionnaireOptions where QuestionId='6cc00299-85bb-49a4-9708-6844dfa1fbda'
+2020-10-06 16:33:21,598 [15] DEBUG - Insert QUE012_TemplateDetail:insert into QUE012_TemplateDetail SELECT 'a4c29061-d714-4299-9ec6-e3f1c49fd513','c92b4987-a9f1-4f63-b732-a26ad26a12f9',QuestionSeq,QuestionType,QuestionSubject,SubjectStyle,QuestionNote,
+                                        PageNo,IsRequired,HasOther,OtherIsShowText,OtherVerify,OtherTextMandatory,OtherCheckMessage,IsSetShowNum,PCRowNum,MobileRowNum,
+                                        IsRamdomOption,ExcludeOther,BaseDataValidType,BlankDefaultWords,BlankValidType,MatrixItems,'00000000-0000-0000-0000-000000000000','2020-10-06 16:33:21.3110782',BlankMaxLimit,BlankMinLimit,QuestionImage,QuestionVideo,MultiOptionLimit  
+                                        from QUE002_QuestionnaireDetail where SurveyId='99999999-0000-0000-0000-000000000002' and QuestionId='6c2927e8-b578-4ed2-8a3a-9ed28581680e'
+2020-10-06 16:33:21,690 [15] DEBUG - Insert QUE013_TemplateOptions:insert into QUE013_TemplateOptions SELECT 'c92b4987-a9f1-4f63-b732-a26ad26a12f9',NEWID(),OptionSeq,OptionType,OptionContent,ChildQuestionId,'00000000-0000-0000-0000-000000000000','2020-10-06 16:33:21.3110782',OptionImage,OptionVideo  
+                                        from QUE003_QuestionnaireOptions where QuestionId='6c2927e8-b578-4ed2-8a3a-9ed28581680e'
+2020-10-06 16:33:21,764 [15] DEBUG - Insert QUE012_TemplateDetail:insert into QUE012_TemplateDetail SELECT 'a4c29061-d714-4299-9ec6-e3f1c49fd513','3a75cf4a-ac4b-420c-a8a6-ea51aecf8d85',QuestionSeq,QuestionType,QuestionSubject,SubjectStyle,QuestionNote,
+                                        PageNo,IsRequired,HasOther,OtherIsShowText,OtherVerify,OtherTextMandatory,OtherCheckMessage,IsSetShowNum,PCRowNum,MobileRowNum,
+                                        IsRamdomOption,ExcludeOther,BaseDataValidType,BlankDefaultWords,BlankValidType,MatrixItems,'00000000-0000-0000-0000-000000000000','2020-10-06 16:33:21.3110782',BlankMaxLimit,BlankMinLimit,QuestionImage,QuestionVideo,MultiOptionLimit  
+                                        from QUE002_QuestionnaireDetail where SurveyId='99999999-0000-0000-0000-000000000002' and QuestionId='44ab9b83-a9d6-42b6-be66-b6be4a4dcf34'
+2020-10-06 16:33:21,838 [15] DEBUG - Insert QUE013_TemplateOptions:insert into QUE013_TemplateOptions SELECT '3a75cf4a-ac4b-420c-a8a6-ea51aecf8d85',NEWID(),OptionSeq,OptionType,OptionContent,ChildQuestionId,'00000000-0000-0000-0000-000000000000','2020-10-06 16:33:21.3110782',OptionImage,OptionVideo  
+                                        from QUE003_QuestionnaireOptions where QuestionId='44ab9b83-a9d6-42b6-be66-b6be4a4dcf34'
+2020-10-06 16:33:21,913 [15] DEBUG - Insert QUE014_TemplateSetting:insert into QUE014_TemplateSetting select 'a4c29061-d714-4299-9ec6-e3f1c49fd513',IsShowPageNo,IsShowQuestionNo,IsShowRequiredStar,
+                                        IsShowProgress,PorgressPosition,ProgressStyle,UseVirifyCode,IsOneQuestionPerPage,IsPublishResult,IsShowEndPage,
+                                        '00000000-0000-0000-0000-000000000000','2020-10-06 16:33:21.3110782' from QUE004_QuestionnaireSetting where SurveyId = '99999999-0000-0000-0000-000000000002'
+2020-10-06 16:33:32,054 [20] DEBUG - 我的範本-刪除...
+2020-10-06 16:33:32,055 [20] ERROR - 我的範本-刪除失敗!參數TemplateId不能為空！
+2020-10-06 16:33:50,959 [14] DEBUG - 我的範本-刪除...
+2020-10-06 16:33:50,962 [14] ERROR - 我的範本-刪除失敗!參數TemplateId不能為空！
+2020-10-06 16:40:14,447 [11] DEBUG - 我的範本-刪除...
+2020-10-06 16:40:14,483 [11] ERROR - 我的範本-刪除失敗!參數TemplateId不能為空！
+2020-10-06 16:41:16,188 [17] DEBUG - 我的範本-刪除...
+2020-10-06 16:41:41,198 [17] ERROR - 我的範本-刪除失敗!參數TemplateId不能為空！
+2020-10-06 16:41:49,121 [17] DEBUG - 我的範本-刪除...
+2020-10-06 16:42:29,176 [17] ERROR - 我的範本-刪除失敗!參數TemplateId不能為空！
+2020-10-06 16:49:03,434 [12] DEBUG - 我的範本-刪除...
+2020-10-06 16:49:08,583 [12] DEBUG - 我的範本-刪除:Update QUE011_TemplateBase set DelFlag =true, UpdDateTime = SYSDATETIME() where TemplateId='a4c29061-d714-4299-9ec6-e3f1c49fd513' 
+2020-10-06 16:49:09,366 [12] ERROR - 刪除範本失敗!Invalid column name 'true'.
+2020-10-06 16:50:48,422 [4] DEBUG - 我的範本-刪除...
+2020-10-06 16:50:52,805 [4] DEBUG - 我的範本-刪除:Update QUE011_TemplateBase set DelFlag ='true', UpdDateTime = SYSDATETIME() where TemplateId='a4c29061-d714-4299-9ec6-e3f1c49fd513' 
+2020-10-06 16:51:07,374 [13] DEBUG - 我的範本-列表...
+2020-10-06 16:51:07,374 [13] DEBUG - 我的範本-列表:select a.TemplateId,a.Title as Subject,count(b.QuestionId) as TotalQuestionNum from QUE011_TemplateBase a 
+                                       left join QUE012_TemplateDetail b on a.TemplateId=b.TemplateId group by a.TemplateId,a.Title 
+2020-10-06 16:52:37,459 [9] DEBUG - 我的範本-列表...
+2020-10-06 16:52:37,490 [9] DEBUG - 我的範本-列表:select a.TemplateId,a.Title as Subject,count(b.QuestionId) as TotalQuestionNum from QUE011_TemplateBase a 
+                                       left join QUE012_TemplateDetail b on a.TemplateId=b.TemplateId where a.DelFlag='false' group by a.TemplateId,a.Title 
+2020-10-06 17:52:48,596 [4] DEBUG - 主畫面操作-帳號列表...
+2020-10-06 17:52:49,253 [4] DEBUG - 資料取得成功。共5筆。
+2020-10-06 17:53:38,555 [5] DEBUG - 主畫面操作-帳號列表...
+2020-10-06 17:53:39,247 [5] DEBUG - 資料取得成功。共5筆。
